@@ -1,0 +1,68 @@
+Tried aggregator 1 time.
+Reduced MIP has 22 rows, 132 columns, and 253 nonzeros.
+Reduced MIP has 132 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.08 sec. (0.21 ticks)
+Found incumbent of value 11.000000 after 0.30 sec. (0.68 ticks)
+Probing time = 0.02 sec. (0.14 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 22 rows, 132 columns, and 253 nonzeros.
+Reduced MIP has 132 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.21 ticks)
+Probing time = 0.00 sec. (0.14 ticks)
+Clique table members: 132.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.06 sec. (0.15 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           11.0000        0.0000       34  100.00%
+*     0+    0                            9.0000        0.0000       34  100.00%
+*     0+    0                            4.0000        0.0000       34  100.00%
+      0     0        3.7000     7        4.0000        3.7000       34    7.50%
+      0     0        cutoff              4.0000        3.7000       34    7.50%
+Elapsed time = 0.48 sec. (1.58 ticks, tree = 0.00 MB, solutions = 3)
+
+Root node processing (before b&c):
+  Real time             =    0.48 sec. (1.58 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.48 sec. (1.58 ticks)
+
+Solution status = Optimal
+
+Number of bins used: 4.0
+
+Bin 0
+
+Item 0 - weight: 48.0
+Item 1 - weight: 30.0
+Item 2 - weight: 19.0
+Packed bin weight: 97.0
+
+Bin 1
+
+Item 3 - weight: 36.0
+Item 4 - weight: 36.0
+Item 5 - weight: 27.0
+Packed bin weight: 99.0
+
+Bin 2
+
+Item 6 - weight: 42.0
+Item 7 - weight: 42.0
+Packed bin weight: 84.0
+
+Bin 3
+
+Item 8 - weight: 36.0
+Item 9 - weight: 24.0
+Item 10 - weight: 30.0
+Packed bin weight: 90.0
+
+Total packed weight: 370.0
