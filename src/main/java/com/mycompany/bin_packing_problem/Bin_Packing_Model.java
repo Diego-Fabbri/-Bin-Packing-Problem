@@ -104,7 +104,7 @@ public class Bin_Packing_Model {
         addVariables();
         addObjective();
         addConstraints();
-        model.exportModel("Multiple_Knapsacks_Problem.lp");
+        model.exportModel("Bin_Packing_Problem.lp");
 
         model.solve();
 
